@@ -1,0 +1,121 @@
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+
+    background-color: aliceblue;
+}
+.main {
+
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border: solid  1px transparent;
+    border-radius: 20px;
+    box-shadow: 1px 3px 20px rgb(163, 163, 163);
+    justify-content: space-between;
+    margin: 20px;
+    
+    max-width: 480px;
+    background-color: white;
+    
+}
+.card__img {
+    
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+.card__text {
+
+    padding: 20px;
+
+}
+.title {
+    text-align: center;
+    font-weight: 1000;
+}
+
+.parrafo {
+
+    font-size: 14px;
+    text-align: center;
+    line-height: 25px;
+}
+
+
+.plan {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: solid 2px transparent;  
+    border-radius: 4px;
+    box-shadow: 1px 1px 3px rgb(207, 196, 196);
+    background-color: rgb(248, 250, 252);
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.plan__img{
+
+    width: 40px;
+}
+
+.plan__cambio{
+
+    color: blueviolet;
+    font-weight: 900;
+}
+
+
+.boton {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    
+}
+.btn {
+
+
+font-weight: bolder;
+padding: 10px;
+}
+
+.boton__pago {
+    background-color: blueviolet;
+    color: aliceblue;
+    border: solid 2px transparent;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    box-shadow: 1px 4px 10px rgb(177, 176, 176);
+}
+
+
+
+
+
+
+.boton__cancel {
+    background-color: white;
+    color: rgb(133, 133, 133);
+    border: solid 1px transparent;
+    
+
+}
