@@ -2,4 +2,4 @@
 Card profile mobile
 
 Link
-https://jhan10jr.github.io/CardProfile.github.io/
+https://jhan10jr.github.io/Card-Profile.github.io/
